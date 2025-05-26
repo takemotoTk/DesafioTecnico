@@ -1,0 +1,15 @@
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\bin\Debug\net8.0\VaccinationCardManagement.Cache.deps.json
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\bin\Debug\net8.0\VaccinationCardManagement.Cache.dll
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\bin\Debug\net8.0\VaccinationCardManagement.Cache.pdb
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\bin\Debug\net8.0\VaccinationCardManagement.Domain.dll
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\bin\Debug\net8.0\VaccinationCardManagement.Domain.pdb
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\VaccinationCardManagement.Cache.csproj.AssemblyReference.cache
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\VaccinationCardManagement.Cache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\VaccinationCardManagement.Cache.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\VaccinationCardManagement.Cache.AssemblyInfo.cs
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\VaccinationCardManagement.Cache.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\Vaccinat.27F20EFB.Up2Date
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\VaccinationCardManagement.Cache.dll
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\refint\VaccinationCardManagement.Cache.dll
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\VaccinationCardManagement.Cache.pdb
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Cache\obj\Debug\net8.0\ref\VaccinationCardManagement.Cache.dll

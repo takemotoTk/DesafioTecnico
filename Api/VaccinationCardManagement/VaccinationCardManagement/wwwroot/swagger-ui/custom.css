@@ -1,0 +1,66 @@
+﻿body {
+    background: #f3f6f9;
+}
+
+.topbar{
+    display: none;
+}
+
+#header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px 0px 10px 0;
+    background-color: #095e9c !important;
+}
+
+    #header #logo .logo__img {
+        height: 50px !important;
+    }
+
+    #header .titleHeader {
+        color: #ffffff;
+        font-family: sans-serif;
+        display: block;
+    }
+
+
+        #header .titleHeader > span {
+            background: #074775;
+            border: 1px solid #074775;
+            border-radius: 5px;
+            padding: 5px 15px;
+            font-size: 0.8em;
+            margin: 0 0 0 2.1em;
+        }
+
+#api_info {
+    display: none;
+}
+
+.footer {
+    display: none;
+}
+
+.swagger-section .swagger-ui-wrap a {
+    color: #2582ec;
+}
+
+.spaceTop {
+    padding-top: 20px;
+}
+
+.swagger-section #message-bar {
+    min-height: inherit;
+    text-align: center;
+    padding-top: inherit;
+}
+
+.headerLimit {
+    width: 100%;
+    height: 15px;
+    background-color: #074775;
+    margin: 0 0 15px 0;
+}
+
+

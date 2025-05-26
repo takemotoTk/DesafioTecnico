@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VaccinationCardManagement.props" />
+</Project>

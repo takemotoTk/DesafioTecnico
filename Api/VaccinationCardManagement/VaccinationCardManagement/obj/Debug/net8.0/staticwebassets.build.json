@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "Hash": "Coe0S6I1vla0fqEn6Jeg9Bi+TLwG7WZykTs/B9xANXc=",
+  "Source": "VaccinationCardManagement",
+  "BasePath": "_content/VaccinationCardManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "VaccinationCardManagement\\wwwroot",
+      "Source": "VaccinationCardManagement",
+      "ContentRoot": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\",
+      "BasePath": "_content/VaccinationCardManagement",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\swagger-ui\\custom.css",
+      "SourceId": "VaccinationCardManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\",
+      "BasePath": "_content/VaccinationCardManagement",
+      "RelativePath": "swagger-ui/custom#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6bsmis0b01",
+      "Integrity": "LsV3EB+rh8jr1Y2EQHVOZgtp3C/+slsHk2VRSHV7s40=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger-ui\\custom.css"
+    },
+    {
+      "Identity": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\swagger-ui\\index.html",
+      "SourceId": "VaccinationCardManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\",
+      "BasePath": "_content/VaccinationCardManagement",
+      "RelativePath": "swagger-ui/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a8gpvvvzrs",
+      "Integrity": "ltaoFb2M5YOowoKkoj8D0AvUqUwsIddR2m9h85WNIpM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\swagger-ui\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "swagger-ui/custom.6bsmis0b01.css",
+      "AssetFile": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\swagger-ui\\custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LsV3EB+rh8jr1Y2EQHVOZgtp3C/+slsHk2VRSHV7s40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:50:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6bsmis0b01"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger-ui/custom.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LsV3EB+rh8jr1Y2EQHVOZgtp3C/+slsHk2VRSHV7s40="
+        }
+      ]
+    },
+    {
+      "Route": "swagger-ui/custom.css",
+      "AssetFile": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\swagger-ui\\custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1113"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LsV3EB+rh8jr1Y2EQHVOZgtp3C/+slsHk2VRSHV7s40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:50:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LsV3EB+rh8jr1Y2EQHVOZgtp3C/+slsHk2VRSHV7s40="
+        }
+      ]
+    },
+    {
+      "Route": "swagger-ui/index.a8gpvvvzrs.html",
+      "AssetFile": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\swagger-ui\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ltaoFb2M5YOowoKkoj8D0AvUqUwsIddR2m9h85WNIpM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:56:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a8gpvvvzrs"
+        },
+        {
+          "Name": "label",
+          "Value": "swagger-ui/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ltaoFb2M5YOowoKkoj8D0AvUqUwsIddR2m9h85WNIpM="
+        }
+      ]
+    },
+    {
+      "Route": "swagger-ui/index.html",
+      "AssetFile": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\swagger-ui\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ltaoFb2M5YOowoKkoj8D0AvUqUwsIddR2m9h85WNIpM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:56:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ltaoFb2M5YOowoKkoj8D0AvUqUwsIddR2m9h85WNIpM="
+        }
+      ]
+    }
+  ]
+}

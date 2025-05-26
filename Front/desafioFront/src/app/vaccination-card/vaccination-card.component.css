@@ -1,0 +1,106 @@
+h2 {
+  margin-bottom: 15px;
+}
+
+.dataInfo{margin-top: 25px;}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  text-align: center;
+  padding: 8px;
+}
+
+.titleVaccine{
+  background-color: #0081a7;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.nameVaccine{
+  background-color: #ebe9a8;
+  text-align: center;
+  font-weight: bold;
+}
+
+.titleDose{
+  background-color: #00afb9;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.titleReinforcement{
+  background-color: #f07167;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.customHeight{
+    font-size: 12px;
+    width: 200px;
+    height: 150px;
+}
+
+.alert {
+  color: #fff;
+  background-color: #dc3545;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #095e9c;
+  color: white;
+}
+
+
+.applied {
+  text-align: center;
+  background-color: #03959c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.not-applied {
+  text-align: center;
+  background-color: #fde4cd;
+  color: #856404;
+  font-weight: bold;
+}
+
+.gray-cell {
+  text-align: center;  
+  background-color: #3f3f3f;
+  color: #6c757d;
+}
+
+.delete{
+  margin: 8px auto 0 auto;
+  background-color: #d4645c;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.add{
+  margin: 8px auto 0 auto;
+  background-color: #00afb9;
+  padding: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}

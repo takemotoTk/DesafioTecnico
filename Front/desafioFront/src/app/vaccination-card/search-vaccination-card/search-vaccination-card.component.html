@@ -1,0 +1,18 @@
+<h2>Buscar Cartão de Vacinação</h2>
+
+<div *ngIf="errorMessage" class="error">
+  {{ errorMessage }}
+</div>
+
+<input type="text" placeholder="Filtrar por nome" [(ngModel)]="filterText" (input)="applyFilter()" />
+
+<ul class="people-list">
+  <li *ngFor="let person of filteredPeople" (click)="selectPerson(person)" class="person-item">
+    <div class="person-info">
+        <a class="person-link">
+          {{ person.name }}
+        </a>
+        <span class="document">Documento: {{ person.fiscalDocument }}</span>
+      </div>
+  </li>
+</ul>

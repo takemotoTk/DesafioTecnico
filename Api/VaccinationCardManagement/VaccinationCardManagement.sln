@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaccinationCardManagement", "VaccinationCardManagement\VaccinationCardManagement.csproj", "{5718A231-55EE-4F61-9590-46A71226B5AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01- Presentation", "01- Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02- Domain", "02- Domain", "{836AAAAE-B858-4378-B1B8-A49B7824694A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03- Application", "03- Application", "{01EE11CE-934F-4134-AAF8-64D93DCC714F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04- Infra", "04- Infra", "{54C051BE-2064-400B-AC14-22C57E258EE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01- DataBase", "01- DataBase", "{ED8B75E9-5897-4627-BBD6-9A3EABEBDE2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaccinationCardManagement.Domain", "VaccinationCardManagement.Domain\VaccinationCardManagement.Domain.csproj", "{33030873-EE3F-4B32-AD07-557A047F036B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaccinationCardManagement.Application", "VaccinationCardManagement.Application\VaccinationCardManagement.Application.csproj", "{6C413A12-70B4-43E4-A182-BF8968EEC541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaccinationCardManagement.Database", "VaccinationCardManagement.Database\VaccinationCardManagement.Database.csproj", "{6699FF55-8C54-4FD2-8487-4036B2325566}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02- Cache", "02- Cache", "{6627E887-6740-4B39-96DD-1726362A8041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaccinationCardManagement.Cache", "VaccinationCardManagement.Cache\VaccinationCardManagement.Cache.csproj", "{FD4AF71A-A674-4E76-9F6E-97EF51089954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5718A231-55EE-4F61-9590-46A71226B5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5718A231-55EE-4F61-9590-46A71226B5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5718A231-55EE-4F61-9590-46A71226B5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5718A231-55EE-4F61-9590-46A71226B5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33030873-EE3F-4B32-AD07-557A047F036B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33030873-EE3F-4B32-AD07-557A047F036B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33030873-EE3F-4B32-AD07-557A047F036B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33030873-EE3F-4B32-AD07-557A047F036B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C413A12-70B4-43E4-A182-BF8968EEC541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C413A12-70B4-43E4-A182-BF8968EEC541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C413A12-70B4-43E4-A182-BF8968EEC541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C413A12-70B4-43E4-A182-BF8968EEC541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6699FF55-8C54-4FD2-8487-4036B2325566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6699FF55-8C54-4FD2-8487-4036B2325566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6699FF55-8C54-4FD2-8487-4036B2325566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6699FF55-8C54-4FD2-8487-4036B2325566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4AF71A-A674-4E76-9F6E-97EF51089954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4AF71A-A674-4E76-9F6E-97EF51089954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4AF71A-A674-4E76-9F6E-97EF51089954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4AF71A-A674-4E76-9F6E-97EF51089954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5718A231-55EE-4F61-9590-46A71226B5AD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{ED8B75E9-5897-4627-BBD6-9A3EABEBDE2D} = {54C051BE-2064-400B-AC14-22C57E258EE8}
+		{33030873-EE3F-4B32-AD07-557A047F036B} = {836AAAAE-B858-4378-B1B8-A49B7824694A}
+		{6C413A12-70B4-43E4-A182-BF8968EEC541} = {01EE11CE-934F-4134-AAF8-64D93DCC714F}
+		{6699FF55-8C54-4FD2-8487-4036B2325566} = {ED8B75E9-5897-4627-BBD6-9A3EABEBDE2D}
+		{6627E887-6740-4B39-96DD-1726362A8041} = {54C051BE-2064-400B-AC14-22C57E258EE8}
+		{FD4AF71A-A674-4E76-9F6E-97EF51089954} = {6627E887-6740-4B39-96DD-1726362A8041}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79382AF1-EE82-4880-9C24-1141CB720203}
+	EndGlobalSection
+EndGlobal

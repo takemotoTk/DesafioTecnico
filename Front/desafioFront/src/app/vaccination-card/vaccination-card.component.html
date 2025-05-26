@@ -1,0 +1,122 @@
+<h2 class="title">Cartão de Vacinação:</h2>
+<h3>{{ cardData?.name }}</h3>
+
+<button (click)="findVaccinationCard()" class="blue">Voltar</button>
+
+<div *ngIf="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+
+<div *ngIf="cardData" class="dataInfo">
+  <table>
+    <thead>
+      <tr>
+        <th class="titleVaccine">Vacina</th>
+        <th class="titleDose">Dose 1</th>
+        <th class="titleDose">Dose 2</th>
+        <th class="titleDose">Dose 3</th>
+        <th class="titleReinforcement">Reforço 1</th>
+        <th class="titleReinforcement">Reforço 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let vaccine of cardData.vaccines">
+        <td class="customHeight nameVaccine">{{ vaccine.vaccineName }}</td>
+
+        <!-- Dose 1 -->
+        <td [ngClass]="getCellClass(vaccine.dose1)" class="customHeight">
+          {{ getCellText(vaccine.dose1) }}
+          
+          <div class="buttonsActions">
+            <button 
+              *ngIf="vaccine.dose1 !== null && (vaccine.dose1?.idVaccinationCard === null || vaccine.dose1?.idVaccinationCard == 0)"
+              (click)="addVaccination(vaccine.id, 1)" class="add">
+              Adicionar Vacinação
+            </button>
+
+            <button 
+              *ngIf="isVaccinationRegistered(vaccine.dose1)"
+              (click)="removeVaccination(vaccine.dose1?.idVaccinationCard)" class="delete">
+              Remover Vacinação
+            </button>
+          </div>
+        </td>
+
+        <!-- Dose 2 -->
+        <td [ngClass]="getCellClass(vaccine.dose2)" class="customHeight">
+          {{ getCellText(vaccine.dose2) }}
+
+          <div class="buttonsActions">
+            <button 
+              *ngIf="vaccine.dose2 !== null && (vaccine.dose2?.idVaccinationCard === null || vaccine.dose2?.idVaccinationCard == 0)"
+              (click)="addVaccination(vaccine.id, 2)" class="add">
+              Adicionar Vacinação
+            </button>
+
+            <button 
+              *ngIf="isVaccinationRegistered(vaccine.dose2)"
+              (click)="removeVaccination(vaccine.dose2?.idVaccinationCard)" class="delete">
+              Remover Vacinação
+            </button>
+          </div>
+        </td>
+
+        <!-- Dose 3 -->
+        <td [ngClass]="getCellClass(vaccine.dose3)" class="customHeight">
+          {{ getCellText(vaccine.dose3) }}
+
+          <div class="buttonsActions">
+            <button 
+              *ngIf="vaccine.dose3 !== null && (vaccine.dose3?.idVaccinationCard === null || vaccine.dose3?.idVaccinationCard == 0)"
+              (click)="addVaccination(vaccine.id, 3)" class="add">
+              Adicionar Vacinação
+            </button>
+
+            <button 
+              *ngIf="isVaccinationRegistered(vaccine.dose3)"
+              (click)="removeVaccination(vaccine.dose3?.idVaccinationCard)" class="delete">
+              Remover Vacinação
+            </button>
+          </div>
+        </td>
+
+        <!-- Reforço 1 -->
+        <td [ngClass]="getCellClass(vaccine.reinforcement1)" class="customHeight">
+          {{ getCellText(vaccine.reinforcement1) }}
+
+          <div class="buttonsActions">
+            <button
+              *ngIf="vaccine.reinforcement1 !== null && (vaccine.reinforcement1?.idVaccinationCard === null || vaccine.reinforcement1?.idVaccinationCard == 0)"
+              (click)="addVaccination(vaccine.id, 4)" class="add">
+              Adicionar Vacinação
+            </button>
+
+            <button 
+              *ngIf="isVaccinationRegistered(vaccine.reinforcement1)"
+              (click)="removeVaccination(vaccine.reinforcement1?.idVaccinationCard)" class="delete">
+              Remover Vacinação
+            </button>
+          </div>
+        </td>
+
+        <!-- Reforço 2 -->
+        <td [ngClass]="getCellClass(vaccine.reinforcement2)" class="customHeight">
+          {{ getCellText(vaccine.reinforcement2) }}
+
+          <div class="buttonsActions">
+            <button
+              *ngIf="vaccine.reinforcement2 !== null && (vaccine.reinforcement2?.idVaccinationCard === null || vaccine.reinforcement2?.idVaccinationCard == 0)"
+              (click)="addVaccination(vaccine.id, 5)" class="add">
+              Adicionar Vacinação
+            </button>
+
+            <button 
+              *ngIf="isVaccinationRegistered(vaccine.reinforcement2)"
+              (click)="removeVaccination(vaccine.reinforcement2?.idVaccinationCard)" class="delete">
+              Remover Vacinação
+            </button>
+          </div>
+        </td>
+
+      </tr>
+    </tbody>
+  </table>
+</div>

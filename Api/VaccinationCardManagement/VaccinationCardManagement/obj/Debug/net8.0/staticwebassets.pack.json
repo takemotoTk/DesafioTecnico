@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\swagger-ui\\custom.css",
+      "PackagePath": "staticwebassets\\swagger-ui\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\PICHAU\\Desktop\\VaccinationCardManagement\\Api\\VaccinationCardManagement\\VaccinationCardManagement\\wwwroot\\swagger-ui\\index.html",
+      "PackagePath": "staticwebassets\\swagger-ui\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VaccinationCardManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VaccinationCardManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.VaccinationCardManagement.props",
+      "PackagePath": "build\\VaccinationCardManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.VaccinationCardManagement.props",
+      "PackagePath": "buildMultiTargeting\\VaccinationCardManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.VaccinationCardManagement.props",
+      "PackagePath": "buildTransitive\\VaccinationCardManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

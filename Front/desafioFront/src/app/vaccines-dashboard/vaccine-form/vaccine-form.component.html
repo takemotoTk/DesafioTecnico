@@ -1,0 +1,28 @@
+<form (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">Nome da Vacina</label>
+    <input id="name" type="text" [(ngModel)]="vaccine.name" name="name" required>
+  </div>
+
+  <div class="form-group">
+    <label for="maxDose">Doses Máximas</label>
+    <input id="maxDose" type="number" min="0" [(ngModel)]="vaccine.maxDose" name="maxDose" required>
+  </div>
+
+  <div class="form-group">
+    <label for="maxReinforcement">Reforços Máximos</label>
+    <input id="maxReinforcement" type="number" min="0" [(ngModel)]="vaccine.maxReinforcement" name="maxReinforcement" required>
+  </div>
+
+  <div class="form-group">
+    <label for="registerNumber">Número de Registro (GUID)</label>
+    <input id="registerNumber" type="text" [(ngModel)]="vaccine.registerNumber" name="registerNumber"
+      [readonly]="isEditMode" [disabled]="isEditMode" required>
+    <small *ngIf="!isEditMode" style="color: #555;">
+      ⚠️ O número de registro deve ser um GUID válido (ex: 3f2504e0-4f89-11d3-9a0c-0305e82c3301).
+    </small>
+  </div>
+
+  <button type="submit">{{ isEditMode ? 'Atualizar' : 'Cadastrar' }}</button>
+  <button type="button" (click)="cancel()">Cancelar</button>
+</form>

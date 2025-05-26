@@ -1,0 +1,402 @@
+[
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.AuthenticationController",
+    "Method": "Authentication",
+    "RelativePath": "api/Authentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VaccinationCardManagement.Application.Commands.Authentication.AuthenticationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VaccinationCardManagement.Application.Models.AuthenticationModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.AuthenticationController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Authentication/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VaccinationCardManagement.Application.Commands.User.CreateUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.AuthenticationController",
+    "Method": "GetUserLogged",
+    "RelativePath": "api/Authentication/GetUserLogged",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.CacheManagerController",
+    "Method": "ClearCache",
+    "RelativePath": "api/CacheManager/ClearCache",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.CacheManagerController",
+    "Method": "DeleteCacheByKey",
+    "RelativePath": "api/CacheManager/DeleteCacheByKey/{key}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.CacheManagerController",
+    "Method": "GetAllKeysInCache",
+    "RelativePath": "api/CacheManager/GetAllKeysInCache",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.PersonController",
+    "Method": "GetPerson",
+    "RelativePath": "api/Person/{idPerson}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPerson",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VaccinationCardManagement.Application.Models.PersonModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.PersonController",
+    "Method": "DeletePerson",
+    "RelativePath": "api/Person/{idPerson}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPerson",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.PersonController",
+    "Method": "AddPerson",
+    "RelativePath": "api/Person/AddPerson",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VaccinationCardManagement.Application.Commands.Person.Add.AddPersonCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.PersonController",
+    "Method": "GetAllPeople",
+    "RelativePath": "api/Person/GetAllPeople",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[VaccinationCardManagement.Application.Models.PersonModel, VaccinationCardManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.PersonController",
+    "Method": "UpdatePerson",
+    "RelativePath": "api/Person/UpdatePerson",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VaccinationCardManagement.Application.Commands.Person.Update.UpdatePersonCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VaccinationCardManagement.Application.Models.PersonModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.VaccinationCardController",
+    "Method": "GetVaccinationCardByIdPerson",
+    "RelativePath": "api/VaccinationCard/{idPerson}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPerson",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VaccinationCardManagement.Application.Models.VaccinationCard.VaccinationCardByPersonModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.VaccinationCardController",
+    "Method": "DeleteVaccination",
+    "RelativePath": "api/VaccinationCard/{idVaccination}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVaccination",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.VaccinationCardController",
+    "Method": "AddVaccination",
+    "RelativePath": "api/VaccinationCard/AddVaccination",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VaccinationCardManagement.Application.Commands.VaccinationCard.Add.AddVaccinationCardCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.VaccineController",
+    "Method": "GetVaccine",
+    "RelativePath": "api/Vaccine/{idVaccine}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVaccine",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VaccinationCardManagement.Application.Models.VaccineModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.VaccineController",
+    "Method": "DeleteVaccine",
+    "RelativePath": "api/Vaccine/{idVaccine}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVaccine",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.VaccineController",
+    "Method": "AddVaccine",
+    "RelativePath": "api/Vaccine/AddVaccine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VaccinationCardManagement.Application.Commands.Vaccine.Add.AddVaccineCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.VaccineController",
+    "Method": "GetAllVaccines",
+    "RelativePath": "api/Vaccine/GetAllVaccines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[VaccinationCardManagement.Application.Models.VaccineModel, VaccinationCardManagement.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VaccinationCardManagement.Controllers.VaccineController",
+    "Method": "UpdateVaccine",
+    "RelativePath": "api/Vaccine/UpdateVaccine",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VaccinationCardManagement.Application.Commands.Vaccine.Update.UpdateVaccineCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VaccinationCardManagement.Application.Models.VaccineModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/VaccinationCardManagement/swagger-ui/custom.6bsmis0b01.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger-ui\custom.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6bsmis0b01"},{"Name":"integrity","Value":"sha256-LsV3EB\u002Brh8jr1Y2EQHVOZgtp3C/\u002BslsHk2VRSHV7s40="},{"Name":"label","Value":"_content/VaccinationCardManagement/swagger-ui/custom.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1113"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LsV3EB\u002Brh8jr1Y2EQHVOZgtp3C/\u002BslsHk2VRSHV7s40=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 19:50:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VaccinationCardManagement/swagger-ui/custom.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger-ui\custom.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LsV3EB\u002Brh8jr1Y2EQHVOZgtp3C/\u002BslsHk2VRSHV7s40="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1113"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LsV3EB\u002Brh8jr1Y2EQHVOZgtp3C/\u002BslsHk2VRSHV7s40=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 19:50:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VaccinationCardManagement/swagger-ui/index.a8gpvvvzrs.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger-ui\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a8gpvvvzrs"},{"Name":"integrity","Value":"sha256-ltaoFb2M5YOowoKkoj8D0AvUqUwsIddR2m9h85WNIpM="},{"Name":"label","Value":"_content/VaccinationCardManagement/swagger-ui/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3859"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ltaoFb2M5YOowoKkoj8D0AvUqUwsIddR2m9h85WNIpM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 19:56:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/VaccinationCardManagement/swagger-ui/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\swagger-ui\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ltaoFb2M5YOowoKkoj8D0AvUqUwsIddR2m9h85WNIpM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3859"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ltaoFb2M5YOowoKkoj8D0AvUqUwsIddR2m9h85WNIpM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 22 May 2025 19:56:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

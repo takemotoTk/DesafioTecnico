@@ -1,0 +1,30 @@
+<div class="content">
+  <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+
+  <h2 class="title">Lista de Pessoas</h2>
+
+  <button (click)="addPerson()" class="blue">Adicionar 1 pessoa</button>
+
+  <ul *ngIf="people.length > 0; else noPeople" class="people-list">
+    <li *ngFor="let person of people" class="person-item">
+      <div class="person-info">
+        <a class="person-link">
+          {{ person.name }}
+        </a>
+        <span class="document">Documento: {{ person.fiscalDocument }}</span>
+      </div>
+
+      <div class="actions">
+        <button (click)="editPerson(person.id)" class="blue">Editar</button>
+        <button (click)="deletePerson(person.id)" class="red">Excluir</button>
+      </div>
+    </li>
+  </ul>
+
+  <ng-template #noPeople>
+    <p class="no-people">Nenhuma pessoa cadastrada.</p>
+  </ng-template>
+</div>
+
+
+

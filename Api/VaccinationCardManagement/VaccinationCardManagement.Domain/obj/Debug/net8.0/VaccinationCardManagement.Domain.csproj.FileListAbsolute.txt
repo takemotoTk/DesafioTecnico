@@ -1,0 +1,11 @@
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\bin\Debug\net8.0\VaccinationCardManagement.Domain.deps.json
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\bin\Debug\net8.0\VaccinationCardManagement.Domain.dll
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\bin\Debug\net8.0\VaccinationCardManagement.Domain.pdb
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\obj\Debug\net8.0\VaccinationCardManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\obj\Debug\net8.0\VaccinationCardManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\obj\Debug\net8.0\VaccinationCardManagement.Domain.AssemblyInfo.cs
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\obj\Debug\net8.0\VaccinationCardManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\obj\Debug\net8.0\VaccinationCardManagement.Domain.dll
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\obj\Debug\net8.0\refint\VaccinationCardManagement.Domain.dll
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\obj\Debug\net8.0\VaccinationCardManagement.Domain.pdb
+C:\Users\PICHAU\Desktop\VaccinationCardManagement\Api\VaccinationCardManagement\VaccinationCardManagement.Domain\obj\Debug\net8.0\ref\VaccinationCardManagement.Domain.dll

@@ -1,0 +1,25 @@
+<h2>{{ isEditMode ? 'Editar Pessoa' : 'Adicionar Pessoa' }}</h2>
+
+<div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Nome:</label>
+    <input id="name" formControlName="name" />
+    <div *ngIf="form.controls['name'].invalid && form.controls['name'].touched" class="error">
+      Nome é obrigatório e deve ter pelo menos 3 caracteres.
+    </div>
+  </div>
+
+  <div>
+    <label for="fiscalDocument">Documento Fiscal:</label>
+    <input id="fiscalDocument" formControlName="fiscalDocument" [readonly]="isEditMode" />
+    <div *ngIf="form.controls['fiscalDocument'].invalid && form.controls['fiscalDocument'].touched" class="error">
+      Documento Fiscal é obrigatório e deve conter apenas números.
+    </div>
+    <small *ngIf="isEditMode">(Não é possível alterar o documento fiscal)</small>
+  </div>
+
+  <button type="submit" [disabled]="form.invalid">{{ isEditMode ? 'Salvar' : 'Adicionar' }}</button>
+  <button type="button" (click)="cancel()">Cancelar</button>
+</form>

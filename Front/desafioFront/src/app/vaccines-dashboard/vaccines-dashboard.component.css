@@ -1,0 +1,92 @@
+.vaccines-list {
+  list-style: none;
+  padding: 0;
+}
+
+.vaccine-item {
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #ddd;
+}
+
+.vaccine-item:hover {
+  background-color: #e6f7ff;
+}
+
+.vaccine-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.vaccine-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.vaccine-link:hover,
+.vaccine-link:focus {
+  color: #0056b3;
+  outline: none;
+  text-decoration: underline;
+}
+
+.document {
+  margin-top: 4px;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  padding: 4px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #095e9c;
+  color: white;
+}
+
+.red {
+  background-color: #dc3545;
+  color: white;
+}
+
+.no-vaccines {
+  font-style: italic;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.title {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #333;
+}

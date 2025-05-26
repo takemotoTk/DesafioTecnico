@@ -1,0 +1,28 @@
+<div class="content">
+  <div *ngIf="error" class="alert alert-danger">{{ error }}</div>
+
+  <h2 class="title">Lista de Vacinas</h2>
+
+  <button (click)="addVaccine()" class="blue">Adicionar Vacina</button>
+
+  <ul *ngIf="vaccines.length > 0; else noVaccines" class="vaccines-list">
+    <li *ngFor="let vaccine of vaccines" class="vaccine-item">
+      <div class="vaccine-info">
+        <a class="vaccine-link">
+          {{ vaccine.name }}
+        </a>
+        <span class="document">Registro: {{ vaccine.registerNumber }}</span>
+        <span class="document">Doses: {{ vaccine.maxDose }}, Reforços: {{ vaccine.maxReinforcement }}</span>
+      </div>
+
+      <div class="actions">
+        <button (click)="editVaccine(vaccine.id)" class="blue">Editar</button>
+        <button (click)="deleteVaccine(vaccine.id)" class="red">Excluir</button>
+      </div>
+    </li>
+  </ul>
+
+  <ng-template #noVaccines>
+    <p class="no-vaccines">Nenhuma vacina cadastrada.</p>
+  </ng-template>
+</div>

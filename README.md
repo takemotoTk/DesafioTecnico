@@ -4,7 +4,7 @@
 
 Desenvolver um sistema para gerenciar o cartão de vacinação de uma pessoa, permitindo o cadastro, consulta, atualização e exclusão das vacinas registradas.
 
-![image](https://gist.github.com/assets/33282336/933c590d-2a63-46a8-a7ae-a96584fd6e47)
+![image](https://github.com/user-attachments/assets/9206de52-9be7-4c3c-b192-a0885b11ae9e)
 
 
 ## Fluxo do sistema:
